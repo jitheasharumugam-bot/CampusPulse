@@ -49,3 +49,10 @@ Jitheash A
 
 B.Sc. Information Technology
 CMS College of Science and Commerce
+## Screenshots
+
+### Dashboard
+![CampusPulse Dashboard](screenshots/screenshot-dashboard.png)
+
+### Issue Reporting Form
+![CampusPulse Report Form](screenshots/screenshot-report-form.png)
