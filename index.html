@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusPulse | Smart Campus Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">Campus<span>Pulse</span></div>
+        <p>Smart Campus Issue Tracking System</p>
+    </header>
+
+    <main class="container">
+
+        <section class="welcome">
+            <h1>Welcome to CampusPulse</h1>
+            <p>A smarter way to report, manage and resolve campus issues.</p>
+        </section>
+
+        <section class="stats">
+
+            <div class="stat-card">
+                <h3>Total Issues</h3>
+                <p id="totalIssues">0</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>Pending</h3>
+                <p id="pendingIssues">0</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>Resolved</h3>
+                <p id="resolvedIssues">0</p>
+            </div>
+
+        </section>
+
+        <section class="report-section">
+
+            <h2>Report a Campus Issue</h2>
+
+            <form id="issueForm">
+
+                <label for="studentName">Student Name</label>
+                <input type="text" id="studentName" placeholder="Enter your name" required>
+
+                <label for="category">Issue Category</label>
+                <select id="category" required>
+                    <option value="">Select category</option>
+                    <option>Wi-Fi / Internet</option>
+                    <option>Classroom</option>
+                    <option>Laboratory</option>
+                    <option>Library</option>
+                    <option>Maintenance</option>
+                    <option>Other</option>
+                </select>
+
+                <label for="description">Issue Description</label>
+                <textarea id="description" placeholder="Describe your issue..." required></textarea>
+
+                <button type="submit">Submit Issue</button>
+
+            </form>
+
+        </section>
+
+        <section class="issues-section">
+
+    <h2>Reported Issues</h2>
+
+    <div class="filter-container">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search issues..."
+        >
+
+        <select id="statusFilter">
+            <option value="All">All Status</option>
+            <option value="Pending">Pending</option>
+            <option value="Resolved">Resolved</option>
+        </select>
+
+        <select id="priorityFilter">
+            <option value="All">All Priorities</option>
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+        </select>
+
+    </div>
+
+    <div id="issuesList">
+
+    </main>
+
+    <footer>
+        <p>CampusPulse © 2026 | Smart Campus Solutions</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
