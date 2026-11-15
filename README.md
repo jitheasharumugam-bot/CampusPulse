@@ -37,7 +37,7 @@ CampusPulse is a responsive web application designed to help students report cam
 
 ## Live Demo
 
-[Open CampusPulse](PASTE-YOUR-GITHUB-PAGES-LINK-HERE)
+[Open CampusPulse Website](https://jitheasharumugam-bot.github.io/CampusPulse/)
 
 ## Project Limitation
 
@@ -56,4 +56,4 @@ CMS College of Science and Commerce
 
 ### Issue Reporting Form
 ![CampusPulse Report Form](screenshots/screenshot-report-form.png)
-[Open CampusPulse Live Website](https://jitheasharumugam-bot.github.io/CampusPulse/)
+
