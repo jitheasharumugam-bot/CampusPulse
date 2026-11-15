@@ -56,3 +56,4 @@ CMS College of Science and Commerce
 
 ### Issue Reporting Form
 ![CampusPulse Report Form](screenshots/screenshot-report-form.png)
+[Open CampusPulse Live Website](https://jitheasharumugam-bot.github.io/CampusPulse/)
